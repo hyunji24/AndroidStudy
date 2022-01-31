@@ -1,4 +1,4 @@
-package org.sopt.kotlinstudy
+package org.sopt.kotlinstudy.util
 
 import android.os.Bundle
 import android.view.LayoutInflater

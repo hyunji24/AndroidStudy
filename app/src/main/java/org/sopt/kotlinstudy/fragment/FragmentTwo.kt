@@ -1,11 +1,11 @@
-package org.sopt.kotlinstudy
+package org.sopt.kotlinstudy.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import org.sopt.kotlinstudy.databinding.FragmentOneBinding
 import org.sopt.kotlinstudy.databinding.FragmentTwoBinding
+import org.sopt.kotlinstudy.util.BaseFragment
 
 class FragmentTwo: BaseFragment<FragmentTwoBinding>() {
 
