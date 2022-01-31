@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_calculator"
+        android:icon="@drawable/ic_calculator"
+        android:title="계산기"/>
+
+    <item
+        android:id="@+id/menu_two"
+       android:icon="@drawable/ic_add"
+        android:title="메뉴2"/>
+
+    <item
+        android:id="@+id/menu_three"
+        android:icon="@drawable/ic_add"
+        android:title="메뉴3"/>
+
+    <item
+        android:id="@+id/menu_four"
+        android:icon="@drawable/ic_add"
+        android:title="메뉴4"/>
+
+</menu>
