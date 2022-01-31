@@ -2,18 +2,21 @@ package org.sopt.kotlinstudy.activity
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import org.sopt.kotlinstudy.Datasource
 import org.sopt.kotlinstudy.R
 import org.sopt.kotlinstudy.databinding.ActivityMainBinding
 import org.sopt.kotlinstudy.fragment.FragmentOne
 import org.sopt.kotlinstudy.fragment.FragmentThree
 import org.sopt.kotlinstudy.fragment.FragmentTwo
 import org.sopt.kotlinstudy.util.BaseActivity
+import javax.sql.DataSource
 
 class MainActivity : BaseActivity<ActivityMainBinding>({ ActivityMainBinding.inflate(it)}) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         initBottomNavigation()
+
     }
 
     private fun initBottomNavigation(){
